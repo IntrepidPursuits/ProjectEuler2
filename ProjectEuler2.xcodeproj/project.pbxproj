@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A50DAFB01A60B9EF00F04445 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A50DAFAF1A60B9EF00F04445 /* main.m */; };
+		A50DAFB81A60BA1300F04445 /* FibonacciRecursion.m in Sources */ = {isa = PBXBuildFile; fileRef = A50DAFB71A60BA1300F04445 /* FibonacciRecursion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A50DAFAA1A60B9EF00F04445 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A50DAFAC1A60B9EF00F04445 /* ProjectEuler2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler2; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50DAFAF1A60B9EF00F04445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A50DAFB61A60BA1300F04445 /* FibonacciRecursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FibonacciRecursion.h; sourceTree = "<group>"; };
+		A50DAFB71A60BA1300F04445 /* FibonacciRecursion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FibonacciRecursion.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50DAFA91A60B9EF00F04445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50DAFA31A60B9EF00F04445 = {
+			isa = PBXGroup;
+			children = (
+				A50DAFAE1A60B9EF00F04445 /* ProjectEuler2 */,
+				A50DAFAD1A60B9EF00F04445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50DAFAD1A60B9EF00F04445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A50DAFAC1A60B9EF00F04445 /* ProjectEuler2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50DAFAE1A60B9EF00F04445 /* ProjectEuler2 */ = {
+			isa = PBXGroup;
+			children = (
+				A50DAFAF1A60B9EF00F04445 /* main.m */,
+				A50DAFB61A60BA1300F04445 /* FibonacciRecursion.h */,
+				A50DAFB71A60BA1300F04445 /* FibonacciRecursion.m */,
+			);
+			path = ProjectEuler2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50DAFAB1A60B9EF00F04445 /* ProjectEuler2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50DAFB31A60B9EF00F04445 /* Build configuration list for PBXNativeTarget "ProjectEuler2" */;
+			buildPhases = (
+				A50DAFA81A60B9EF00F04445 /* Sources */,
+				A50DAFA91A60B9EF00F04445 /* Frameworks */,
+				A50DAFAA1A60B9EF00F04445 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectEuler2;
+			productName = ProjectEuler2;
+			productReference = A50DAFAC1A60B9EF00F04445 /* ProjectEuler2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50DAFA41A60B9EF00F04445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Intrepid;
+				TargetAttributes = {
+					A50DAFAB1A60B9EF00F04445 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A50DAFA71A60B9EF00F04445 /* Build configuration list for PBXProject "ProjectEuler2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A50DAFA31A60B9EF00F04445;
+			productRefGroup = A50DAFAD1A60B9EF00F04445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50DAFAB1A60B9EF00F04445 /* ProjectEuler2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50DAFA81A60B9EF00F04445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50DAFB01A60B9EF00F04445 /* main.m in Sources */,
+				A50DAFB81A60BA1300F04445 /* FibonacciRecursion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A50DAFB11A60B9EF00F04445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A50DAFB21A60B9EF00F04445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A50DAFB41A60B9EF00F04445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A50DAFB51A60B9EF00F04445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A50DAFA71A60B9EF00F04445 /* Build configuration list for PBXProject "ProjectEuler2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50DAFB11A60B9EF00F04445 /* Debug */,
+				A50DAFB21A60B9EF00F04445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50DAFB31A60B9EF00F04445 /* Build configuration list for PBXNativeTarget "ProjectEuler2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50DAFB41A60B9EF00F04445 /* Debug */,
+				A50DAFB51A60B9EF00F04445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A50DAFA41A60B9EF00F04445 /* Project object */;
+}

@@ -16,12 +16,15 @@ int main(int argc, const char * argv[]) {
         NSInteger secondTerm = 2;
         NSInteger limit = 4000000;
         NSInteger sum = [FibonacciRecursion sumOfEvenFibonacciNumbersWithFirstTerm:firstTerm secondTerm:secondTerm notLargerThan:limit];
+        NSInteger alternateSum = [FibonacciRecursion alternateSumOfEvenFibonacciNumbersWithFirstTerm:firstTerm secondTerm:secondTerm notLargerThan:limit];
         
         NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
         numberFormatter.groupingSize = 3;
         numberFormatter.groupingSeparator = @",";
         numberFormatter.usesGroupingSeparator = YES;
+        
         NSLog(@"Sum of numbers equal to or less than %@ in Fibonacci sequence starting with %li and %li is: %li", [numberFormatter stringFromNumber:@(limit)], firstTerm, secondTerm, sum);
+        NSLog(@"Alternately found sum of numbers equal to or less than %@ in Fibonacci sequence starting with %li and %li is: %li", [numberFormatter stringFromNumber:@(limit)], firstTerm, secondTerm, alternateSum);
     }
     return 0;
 }

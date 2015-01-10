@@ -11,5 +11,6 @@
 @interface FibonacciRecursion : NSObject
 
 + (NSInteger)sumOfEvenFibonacciNumbersWithFirstTerm:(NSInteger)firstTerm secondTerm:(NSInteger)secondTerm notLargerThan:(NSInteger)limit;
++ (NSInteger)alternateSumOfEvenFibonacciNumbersWithFirstTerm:(NSInteger)firstTerm secondTerm:(NSInteger)secondTerm notLargerThan:(NSInteger)limit;
 
 @end
